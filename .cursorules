@@ -1,0 +1,53 @@
+
+# Cursor Rules for Next.js Todo App
+
+## General Guidelines
+- Always use TypeScript for type safety
+- Follow React best practices and hooks patterns
+- Use functional components over class components
+- Prefer const assertions and proper typing
+
+## Code Style
+- Use 2 spaces for indentation
+- Use semicolons
+- Use double quotes for strings
+- Use trailing commas in objects and arrays
+- Use camelCase for variables and functions
+- Use PascalCase for components and interfaces
+
+## Next.js Specific
+- Use the App Router (app directory) structure
+- Prefer Server Components when possible
+- Use proper metadata exports for SEO
+- Follow Next.js file naming conventions
+
+## React Patterns
+- Use useState and useEffect appropriately
+- Extract custom hooks when logic is reusable
+- Use proper key props in lists
+- Handle loading and error states
+- Use proper event handling patterns
+
+## Styling
+- Use Tailwind CSS utility classes
+- Follow the existing design system
+- Use Shadcn/ui components when available
+- Maintain consistent spacing and colors
+
+## TypeScript
+- Always type function parameters and return values
+- Use interfaces for object shapes
+- Avoid 'any' type - use proper typing
+- Use union types and optional properties appropriately
+
+## Performance
+- Minimize re-renders with proper dependency arrays
+- Use React.memo() when appropriate
+- Optimize images with Next.js Image component
+- Implement proper loading states
+
+## Accessibility
+- Use semantic HTML elements
+- Include proper ARIA labels
+- Ensure keyboard navigation works
+- Maintain good color contrast
